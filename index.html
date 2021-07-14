@@ -4,53 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="js/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Instagram</title>
 </head>
 
 <body>
-    <div>
-        <div>
-            <img src="img/Screenshot_1.png" alt="imagem de um smarthphone contendo um perfil do instragram">
+    <div class="instagram-wrapper">
+        <div class="instagram-phone">
+            <img src="./img/instagram-celular.png" alt="celular">
         </div>
-        <div>
-            <img src="img/nome-instagram.png" alt="nome da rede social">
-            <input type="text" placeholder="Telefone, nome de usuário ou email">
-            <input type="text" placeholder="Senha">
-            <button type="submit">Entrar</button>
-            <p>---------------------- OU ----------------------</p>
-            <a href="#">
-                <img src="img/icon-facebook.png" alt="icone da rede social facebook">
-                Entrar com o Facebook
-            </a>
-            <p>Esqueceu a senha?</p>
+        <div class="instagram-continue">
+            <div class="group">
+                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
+                <div class="profile-photo">
+                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+                </div>
+                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
+                <a href="#" class="instagram-logout">Remover conta</a>
+            </div>
+            <div class="group">
+                <p class="not-account">Não é sprucegabriela?</p>
+                <p class="not-account">
+                    <span class="link-blue">Alternar contas</span>
+                    ou
+                    <span class="link-blue">Inscreva-se</span>
+                </p>
+            </div>
+            <div class="get-the-app">
+                <p class="get-app">Baixe o aplicativo</p>
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
+            </div>
         </div>
-        <div>
-            <p>Não tem uma conta?</p>
-            <a href="#">Cadastre-se</a>
-        </div>
-        <p>Obtenha o aplicativo.</p>
-        <img src="img/logo-app-store.png" alt="logo da loja de aplicativos App Store">
-        <img src="img/logo-google-play.png" alt="logo da loja de palicativos Google Play">
     </div>
-    <footer>
-        <ul>
-            <li>Sobre</li>
-            <li>Blog</li>
-            <li>Carreiras</li>
-            <li>Ajuda</li>
-            <li>API</li>
-            <li>Privacidade</li>
-            <li>Termos</li>
-            <li>Principais contas</li>
-            <li>Hashtags</li>
-            <li>Localizações</li>
-        </ul>
-        <ul>
-            <li>Português (Brasil)</li>
-            <li>2021 Instagram do Fecebook</li>
-        </ul>
-    </footer>
 </body>
 
 </html>
